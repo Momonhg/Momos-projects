@@ -1,0 +1,28 @@
+/****** general css tag******/
+h1 {
+  color: #F68989;
+  font-size: 100;
+}
+
+body {
+  background-color: #F6E7D8;
+  font-family: "Gill Sans", sans-serif;
+}
+
+/******Class css tag*******/
+.unorderlist {
+  color: #FD5D5D;
+}
+
+.orderlist {
+  color: #B33030;
+}
+
+/******ID css tag not using much*******/
+#tableone {
+  background-color: #FF9F45;
+}
+
+#tableone:hover {
+  background-color: #B6FFCE;
+}
