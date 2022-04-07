@@ -1,11 +1,13 @@
 body {
-background-color: #F68989
+  margin: 0;
+  background-color: #F68989;
+}
 
+div {
+  background-color: #FFF7BC;
+  
 }
 
 h1 {
-
-
-
-
+  margin-top: 0;
 }
