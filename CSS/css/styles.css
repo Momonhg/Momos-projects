@@ -1,13 +1,71 @@
 body {
   margin: 0;
-  background-color: #F68989;
-}
-
-div {
-  background-color: #FFF7BC;
-  
+  background-color: #FFE9C5;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  color: #630000;
+  font-weight: normal;
+  line-height: 2;
 }
 
 h1 {
+  font-size: 265.5%;
   margin-top: 0;
+  color: #FD5D5D;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 265.5%;
+  margin-top: 0;
+  color: #FF8080;
+}
+
+h3 {
+  font-size: 265.5%;
+  margin: 0 0 auto 0;
+  color: #FF8080;
+
+}
+
+.Greatest {
+  text-decoration: underline;
+}
+
+.top-container {
+  padding: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 70px;
+  right: 350px;
+  width: 200px;
+  height: 200px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  /***to make it center check auto or modify accordingly***/
+  width: 50%;
+  text-align: left;
+}
+
+.computer {
+  width: 25%;/***size will be 25% of the parent div***/
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies {
+  width: 25%;
+  float: right;
 }
