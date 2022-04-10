@@ -5,26 +5,36 @@ body {
   font-family: 'Source Code Pro', monospace;
   color: #630000;
   font-weight: normal;
-  line-height: 2;
+}
+
+p{
+    line-height: 2;
 }
 
 h1 {
   font-size: 265.5%;
   margin-top: 0;
-  color: #FD5D5D;
+  color: #e37366;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 265.5%;
+  font-size: 200.5%;
   margin-top: 0;
-  color: #FF8080;
+  color: #e37366;
 }
 
 h3 {
-  font-size: 265.5%;
+  font-size: 150.5%;
   margin: 0 0 auto 0;
-  color: #FF8080;
+  color: #e37366;
+}
+
+hr {
+  border: dotted #417d7a 20px;
+border-bottom: none;
+width: 4%;
+margin: 100px auto 100px auto;
 
 }
 
@@ -33,39 +43,73 @@ h3 {
 }
 
 .top-container {
-  padding: 200px;
+  padding: 75px;
 }
 
-.top-cloud {
+.top-flower {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 500px;
-  height: 300px;
+  top: 20px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
 }
 
-.bottom-cloud {
+.bottom-flower {
   position: absolute;
-  bottom: 70px;
-  right: 350px;
-  width: 200px;
-  height: 200px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .skill-row {
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   /***to make it center check auto or modify accordingly***/
   width: 50%;
   text-align: left;
 }
 
 .computer {
-  width: 25%;/***size will be 25% of the parent div***/
+  width: 30%;
+  /***size will be 25% of the parent div***/
   float: left;
   margin-right: 30px;
 }
 
 .chillies {
-  width: 25%;
+  width: 30%;
   float: right;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #417d7a;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e37366;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #B74242;
+}
+
+.footer-link:hover {
+  color: #FFFFFF;
+}
+
+.bottom-container {
+  color: #FFFFFF;
+  margin: 100px 0 0 0;
+background-color: #e37366;
+padding: 20px;
+
+
 }
