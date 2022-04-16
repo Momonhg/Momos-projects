@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap instalation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- NOTE:can add link like above or copy the template from this websit https://getbootstrap.com/docs/5.1/getting-started/introduction/
+  -->
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- NOTE: add js to make it work-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- NOTE: add font by using font google -> add also to css -->
+</head>
+<!-- NOTE: add the class in every open tag to use bootstrap,  to this website https://getbootstrap.com/docs/5.1/components/navbar/-->
+<!-- NOTE: if want to add anything in the HTML (spine) file, then modify more specific in CSS (style) with ID or tag
+in HTML add bootstrap by include class= bla bla bla, class name should be according and refer, search gg: ### bootstrap class -->
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#F68989;">
+    <a class="navbar-brand" href=""> nopester</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Download</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- NOTE: remember if want to do something to a specific group, make a new div and set up a class to able to modify
+a new div/ class can make modify the whole area without make any else in CSS -->
+  <!-- NOTE: add Toggler to make to small menu drop down menu  data-bs-target="#navbarToggler" has to be the same with the id in div class-->
+
+  <h1>Bootstrap learning session</h1>
+  <h3>Nav bar</h3>
+  <!-- NOTE: layout set up check on here https://getbootstrap.com/docs/5.1/layout/breakpoints/ -->
+  <div class="row">
+    <div class="col" style="background-color: red; border: 1px solid">
+      colum
+      <!-- NOTE: add colum under parent div row and mini parent div col, set up full width =12,
+      take 12 and divide to how many colum you want on the display -> get the number response under class col-### -->
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6" style="background-color: Pink; border: 1px solid">
+      colum 6
+    </div>
+    <div class="col-3" style="background-color: Pink; border: 1px solid">
+      colum 3
+    </div>
+    <div class="col-2" style="background-color: Pink; border: 1px solid">
+      colum 2
+    </div>
+    <div class="col-1" style="background-color: Pink; border: 1px solid">
+      colum 1
+    </div>
+  </div>
+
+  <!-- NOTE: how to create response different when change displays phone- laptop, bla blabla -->
+  <!-- NOTE: class col, how many col? -> 12/ colum = X (number put in the col class) -> col-X -->
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blue; border: 1px solid">
+      colum-lg 3 (12/4col) md-4(12/3col) sm-6 (12/2col)
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blue; border: 1px solid">
+      colum-lg 3 (12/4col) md-4(12/3col) sm-6 (12/2col)
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blue; border: 1px solid">
+      colum-lg 3 (12/4col) md-4(12/3col) sm-6 (12/2col)
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blue; border: 1px solid">
+      colum-lg 3 (12/4col) md-4(12/3col) sm-6 (12/2col)
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blue; border: 1px solid">
+      colum-lg 3 (12/4col) md-4(12/3col) sm-6 (12/2col)
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blue; border: 1px solid">
+      colum-lg 3 (12/4col) md-4(12/3col) sm-6 (12/2col)
+    </div>
+  </div>
+
+
+
+</body>
+
+
+</html>
