@@ -1,0 +1,58 @@
+#title{
+  background-color: #F68989;
+}
+
+
+h1 {
+  font: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+p{
+  color: grey;
+}
+i {
+  color: #FFBBBB;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 45%;
+}
+
+
+
+/*****features***/
+#features {
+  padding: 7% 15%;
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #FCC29A;
+}
