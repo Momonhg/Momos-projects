@@ -47,15 +47,20 @@ i {
   font-family: "Ubuntu", sans-serif;
 }
 
-
+.box{
+  padding: 20px;
+}
 .feature-box{
   width: 90%;
-  margin: 70px 0 70px 0;
+  margin: 20px;
+padding: 20px;
+
 }
 
 .work-life-image{
   float: right;
   width: 30%;
+  border-radius: 100%;
 }
 
 .journey-image{
@@ -63,12 +68,20 @@ i {
   width: 30%;
   margin: 0 20px 0 0;
 }
-
+.box-two{
+  padding: 20px;
+}
 .projects-image{
   width: 90%;
 height: 50%;
+padding-bottom: 20px;
 }
-
+.stamp {
+  text-align: center;
+  color: #fff;
+  font: "Montserrat-black";
+  font-size: 3rem;
+}
 .form-image{
   position: relative;
   width: 200px;

@@ -11,7 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/f4d85c8151.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -28,13 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">About</a>
+              <a class="nav-link" href="#features">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
         </div>
@@ -63,25 +66,25 @@
 
   <section id="features">
 
-<div class="row">
-  <div class="feature-box col-lg-4 col-md-2">
-    <i class="icon fa-solid fa-user-graduate fa-4x"></i>
-    <h3>Easy to learn.</h3>
-    <p> So easy to learn, narcissist unable to track.</p>
-  </div>
+    <div class="row">
+      <div class="feature-box col-lg-4 col-md-2">
+        <i class="icon fa-solid fa-user-graduate fa-4x"></i>
+        <h3>Easy to learn.</h3>
+        <p> So easy to learn, narcissist unable to track.</p>
+      </div>
 
-  <div class="feature-box col-lg-4 col-md-2">
-    <i class="icon fa-solid fa-person-circle-check fa-4x"></i>
-    <h3>Understand your limit</h3>
-    <p>Set up the boundaries, no one dares to cross.</p>
-  </div>
+      <div class="feature-box col-lg-4 col-md-2">
+        <i class="icon fa-solid fa-person-circle-check fa-4x"></i>
+        <h3>Understand your limit</h3>
+        <p>Set up the boundaries, no one dares to cross.</p>
+      </div>
 
-  <div class="feature-box col-lg-4 col-md-2">
-    <i class="icon fa-solid fa-users-slash fa-4x"></i>
-    <h3>Cut off bad vibes.</h3>
-    <p>Find the aprreciation that you need without guilt.</p>
-  </div>
-</div>
+      <div class="feature-box col-lg-4 col-md-2">
+        <i class="icon fa-solid fa-users-slash fa-4x"></i>
+        <h3>Cut off bad vibes.</h3>
+        <p>Find the aprreciation that you need without guilt.</p>
+      </div>
+    </div>
 
 
 
@@ -91,27 +94,46 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
+    <!-- NOTE:/***add carousel as a slide show with control, can find from this data-interval="2000" data-pause="hover" websitehttps://getbootstrap.com/docs/4.0/components/carousel/ ****
+  -->
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text"> I say no easily, set up my boundaries, and cut off bad influence. I also learn how to be by myself with confident and know how to make room for new good habit</h2>
+          <img class="testimonial-image-one" src="images/giraffe-nope.gif" alt="shaking-head-giraffe">
+          <em>Unknown, Waterloo</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text"> I learn how to not welcome back my manipulative ex. Finally, I'm able to burn that bridge after so many on-off situation </h2>
+          <img class="testimonial-image-two" src="images/burning-bridges.png" alt="burning-bridges">
+          <em>Unknown, Toronto</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
-    <h2 class="testimonial-text"> I say no easily, set up my boundaries, and cut off bad influence. I also learn how to be by myself with confident and know how to make room for new good habit</h2>
-    <img src="images/giraffe-nope.gif" alt="shaking-head-giraffe">
-    <em>Unknown, Waterloo</em>
 
-    <h2 class="testimonial-text"> I learn how to not welcome back my manipulative ex. Finally, I'm able to burn that bridge after so many on-off situation </h2>
-    <img class="testimonial-image" src="images/burning-bridges.png" alt="burning-bridges">
-    <em>Toronto</em>
 
   </section>
 
 
-  <!-- Press -->
+  <!-- Press
 
   <section id="press">
-    <i class="fa-thin fa-hand-heart"></i>
-    <i class="fa-thin fa-person-arrow-up-from-line"></i>
-    <i class="fa-thin fa-head-side-heart"></i>
-    <i class="fa-thin fa-shield-heart"></i>
 
-  </section>
+    <img class="logo" src="images/bizinsider.png" alt="logo">
+    <img class="logo" src="images/mashable.png" alt="logo">
+    <img class="logo" src="images/TechCrunch.png" alt="logo">
+    <img class="logo" src="images/tnw.png" alt="logo">
+
+  </section> -->
 
 
   <!-- Pricing -->
@@ -119,54 +141,89 @@
   <section id="pricing">
 
     <h2> <i class="fa-solid fa-people-group"></i> A Plan for Every People Pleaser <i class="fa-solid fa-people-group"></i></h2>
-    <p>Simple and affordable price plans for your and your feelings.</p>
+    <p>Simple and affordable price plans for you and your feelings.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="pricing-name"> <i class="fa-solid fa-users-slash"></i> No bad vibe </h3>
+          </div>
+          <div class="class-body">
+            <h2>Free/ per day</h2>
+            <div class="pricing-container">
+              <p>5 minutes of new habit</p>
+              <p>Less 10 Messages with bad vibes</p>
+              <p>Unlimited Self aprreciation</p>
+            </div>
+            <button type="button" class="btn btn-outline-secondary mb-3"> <i class="fa-solid fa-ban"></i> Ignore and Filter <i class="fa-solid fa-cat"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="pricing-name"> <i class="fa-solid fa-clock-rotate-left"></i> 5s No </h3>
+          </div>
+          <div class="class-body">
+            <h2>Free.49/ per day</h2>
+            <div class="pricing-container">
+              <p>10 minutes of new habit</p>
+              <p>Think more than 5s, awnser is NO</p>
+              <p>Unlimited Self aprreciation with Kisses</p>
+            </div>
+
+            <button type="button" class="btn btn-dark mb-3"><i class="fa-solid fa-person-walking-luggage"></i> Pack and Leave </button>
+          </div>
+        </div>
+      </div><div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="pricing-name"> <i class="fa-solid fa-jedi"></i> Pink Rose </h3>
+          </div>
+          <div class="class-body">
+            <h2>Free.99/ per day</h2>
+            <div class="pricing-container">
+              <p>Pirority Yourself</p>
+              <p>20 minutes of new habit</p>
+              <p>Say NO like a reflect</p>
+              <p>Unlimited Self aprreciation with Kisses and Hugs</p>
+            </div>
+
+            <button type="button" class="btn btn-dark mb-3"><i class="fa-solid fa-hand-fist"></i> Refresh and Rise</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
 
-    <h3> <i class="fa-solid fa-users-slash"></i> No bad vibe</h3>
-    <h2>Free</h2>
-    <p>5 minutes of new habit per day</p>
-    <p>Less 10 Messages with bad vibes per day</p>
-    <p>Unlimited Seft aprreciation</p>
-    <button type="button"> <i class="fa-solid fa-ban"></i> <i class="fa-solid fa-cat"></i> Ignore and Filter</button>
-
-
-    <h3> <i class="fa-solid fa-clock-rotate-left"></i> 5s No</h3>
-    <h2>Free.49/ month</h2>
-    <p>10 minutes of new habit per day</p>
-    <p>If it makes you think more than 5s, say NO</p>
-    <p>Unlimited Seft aprreciation with Kisses</p>
-    <button type="button"> <i class="fa-solid fa-person-walking-luggage"></i> Pack and Leave</button>
-
-
-    <h3> <i class="fa-solid fa-jedi"></i>Pink Rose</h3>
-    <h2>Free.99/ month</h2>
-    <p>Pirority Yourself</p>
-    <p>20 minutes of new habit per day</p>
-    <p>Say NO when it makes you think more than 5s</p>
-    <p>Unlimited Seft aprreciation with Kisses and Hugs</p>
-    <button type="button"> <i class="fa-solid fa-hand-fist"></i> Refresh and Rise</button>
 
   </section>
 
 
   <!-- Call to Action -->
 
-  <section id="cta">
+    <section id="cta">
 
-    <h3>Find your Peace Today.</h3>
-    <button type="button" class="btn btn-outline-light btn-lg"> <i class="fa-solid fa-heart-circle-plus"></i> Self-love </button>
-    <button type="button" class="btn btn-outline-dark btn-lg"> <i class="fa-solid fa-person-arrow-up-from-line"></i> Aprreciation </button>
+      <h3 class="cta-heading">Find your Peace Today.</h3>
+      <button type="button" class="btn btn-outline-light btn-lg"> <i class="fa-solid fa-heart-circle-plus"></i> Self-love </button>
+      <button type="button" class="btn btn-outline-dark btn-lg"> <i class="fa-solid fa-person-arrow-up-from-line"></i> Aprreciation </button>
 
-  </section>
+    </section>
 
 
-  <!-- Footer -->
+    <!-- Footer -->
 
-  <footer id="footer">
+    <footer id="footer">
+<i class="footer-icon fa-brands fa-twitter"></i>
+<i class="footer-icon fa-brands fa-instagram"></i>
+<i class="footer-icon fa-brands fa-facebook-f"></i>
+<i class="footer-icon fa-brands fa-whatsapp"></i>
+<i class="footer-icon fa-solid fa-envelope"></i>
+      <p>© Copyright Nopester</p>
 
-    <p>© Copyright Nopester</p>
-
-  </footer>
+    </footer>
 
 
 </body>

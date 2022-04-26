@@ -1,24 +1,31 @@
-#title{
-  background-color: #F68989;
-}
-
-
 h1 {
   font: "Montserrat-black";
   font-size: 3rem;
   line-height: 1.5;
+  color: #fff;
 }
+
+h2 {
+font: "Montserrat-bold";
+font-size: 2rem;
+line-height: 1.5;
+}
+
 
 h3{
   font: "Montserrat-bold";
   font-size: 1.5rem;
 }
 
-p{
-  color: grey;
-}
 i {
   color: #FFBBBB;
+}
+
+
+/****title***/
+
+#title{
+  background-color: #F68989;
 }
 
 .container-fluid {
@@ -44,6 +51,10 @@ i {
 
 }
 
+.row{
+  color: #362222;
+}
+
 .feature-box {
   text-align: center;
   padding: 5%;
@@ -55,4 +66,95 @@ i {
 
 .icon:hover{
   color: #FCC29A;
+}
+
+
+/***testomonial***/
+#testimonials {
+text-align: center;
+background-color: #F68989;
+color: #fff;
+}
+
+.testimonial-text{
+color: #fff;
+
+}
+.carousel-item {
+  padding: 7% 15%;
+
+}
+
+
+.testimonial-image-one {
+  width: 10%; /*****the size of image***/
+  border-radius: 100%; /****border line of image***/
+  margin: 15px; /**space between***/
+
+}
+
+.testimonial-image-two {
+  width: 10%;
+  border-radius: 100%;
+  margin: 15px;
+
+}
+
+/****press***/
+#press{
+  background-color: #F68989;
+  text-align: center;
+  padding: 3%;
+}
+.logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/****Pricing***/
+#pricing {
+  color: #F68989;
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-name{
+  color: #362222;
+  font-size: 2rem;
+  margin: 20px 10px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-container{
+  padding: 3% 5%;
+}
+
+/*** cta***/
+#cta {
+  margin: 20px 0 0 0;
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #F68989;
+  color: #fff;
+}
+
+.cta-heading{
+  font: Montserrat-black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+/***footer***/
+#footer{
+  text-align: center;
+  color: #F68989;
+  line-height: 1.5;
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  margin: 20px 10px;
 }
